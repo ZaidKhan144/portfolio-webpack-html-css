@@ -2,11 +2,12 @@ const path = require('path');
 var HTMLWebpackPlugin = require('html-webpack-plugin');
 var {CleanWebpackPlugin} = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+//const FaviconsWebpackPlugin = require('favicons-webpack-plugin')
 
 module.exports = {
   entry: './src/js/index.js',
   output: {
-    filename: 'bundle.js',
+    filename: 'static/bundle.js',
     path: path.resolve(__dirname, 'dist'),
     publicPath: '',
   },
@@ -15,17 +16,10 @@ module.exports = {
           {
             test: /\.scss$/i,
             use: [
-                //'style-loader',
-                MiniCssExtractPlugin.loader,
-                {
-                    loader: 'css-loader',
-                    // options: {
-                    //     url: false
-                    // } 
-                }, 
-                'resolve-url-loader', 
-                'sass-loader'
-            ],
+              MiniCssExtractPlugin.loader,
+              'css-loader',
+              'sass-loader'
+              ],
           },
           {
             test: /\.html$/i,
@@ -41,10 +35,6 @@ module.exports = {
                   outputPath: "img/",
                   publicPath: 'img/'
                 },
-                  loader: 'url-loader',
-                  options: {
-                    limit: 8192,
-                },
               },
             ],
           },
@@ -55,6 +45,8 @@ module.exports = {
           template: "./src/index.html"
         }),
         new CleanWebpackPlugin(),
-        new MiniCssExtractPlugin()
+        new MiniCssExtractPlugin({
+          filename: "custom/my/folder/for/css/main.css"
+        })
       ],
 };
