@@ -5,6 +5,7 @@ import hamburgerMenu from './hamburger'
 import projects from './projects'
 import '../sass/main.scss'
 
+
 console.log('hey');
 
 AOS.init();     

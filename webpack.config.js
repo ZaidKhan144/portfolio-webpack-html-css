@@ -26,7 +26,7 @@ module.exports = {
             use: ['html-loader'],
           },
           {
-            test: /\.(png|jpe?g|gif|svg)$/i,
+            test: /\.(png|jpe?g|gif|svg|ico)$/i,
             use: [
               {
                 loader: 'file-loader',
@@ -42,7 +42,8 @@ module.exports = {
     },
     plugins: [
         new HTMLWebpackPlugin({
-          template: "./src/index.html"
+          template: "./src/index.html",
+          favicon: './src/data/img/favicon.ico'
         }),
         new CleanWebpackPlugin(),
         new MiniCssExtractPlugin({
