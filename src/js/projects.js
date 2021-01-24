@@ -52,7 +52,7 @@ function projects(){
         //close mask when you click on it for projects
         if($('#mask').is(':visible')){
     
-            console.log('mask is showing');
+            // console.log('mask is showing');
         
                 document.getElementById('mask').addEventListener('click',()=>{
                     closingMask();

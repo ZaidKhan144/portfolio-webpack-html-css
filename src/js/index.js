@@ -6,7 +6,7 @@ import projects from './projects'
 import '../sass/main.scss'
 
 
-console.log('hey');
+console.log('hi');
 
 AOS.init();     
 stickyNav();
