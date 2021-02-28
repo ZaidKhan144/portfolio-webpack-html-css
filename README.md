@@ -42,7 +42,7 @@ $ npm run start:dev
 Then open [localhost:9000](http://localhost:9000) to see the live app.
 
 ## Tech used
-- JavaScript ES6run 
+- JavaScript ES6
 - jQuery
 - AOS Library
 - Webpack
