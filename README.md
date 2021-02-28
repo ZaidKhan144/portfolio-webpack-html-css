@@ -52,5 +52,7 @@ Then open [localhost:9000](http://localhost:9000) to see the live app.
 - Prettier - Code formatter
 - HostGator
 
+## Reflection
+
 
 
