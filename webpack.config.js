@@ -50,4 +50,9 @@ module.exports = {
           filename: "styles/main.css"
         })
       ],
+      devServer: {
+        contentBase: path.join(__dirname, 'dist'),
+        compress: true,
+        port: 3000,
+      }
 };
