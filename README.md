@@ -40,6 +40,6 @@ $ npm install
 $ npm run start:dev
 
 ```
-Open [localhost:9000](http://localhost:9000) to see the live app.
+Then open [localhost:9000](http://localhost:9000) to see the live app.
 
 
