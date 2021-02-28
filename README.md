@@ -22,6 +22,24 @@ Portfolio project that showcases all the creations.
 
 ![image](https://i.postimg.cc/hvJ5h7NP/Zaid-Khan-3.png)
 
+## Installation and Setup Instructions
 
+To make below steps work, You will need node and npm installed globally on your machine.
+
+```bash
+# Clone this repository
+$ git clone https://github.com/ZaidKhan144/portfolio-webpack-html-css.git
+
+# Enter the Git folder
+$ cd portfolio-webpack-html-css
+
+# Install dependencies
+$ npm install
+
+# Start the project
+$ npm run start:dev
+
+```
+Open [localhost:9000](http://localhost:9000) to see the live app.
 
 
