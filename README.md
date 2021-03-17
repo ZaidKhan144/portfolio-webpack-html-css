@@ -37,7 +37,7 @@ $ cd portfolio-webpack-html-css
 $ npm install
 
 # Start the project
-$ npm run start:dev
+$ npm start
 ```
 Then open [localhost:9000](http://localhost:9000) to see the live app.
 
