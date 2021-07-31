@@ -69,5 +69,5 @@ At the end of the day, the technologies implemented in this project are `JavaScr
 
 In the future, I will convert this project into `React` so that it can be easier to maintain. 
 
-You can visit the portfolio app at: https://www.zaidikhan.com/
+You can visit the portfolio app at: https://personal-web-v1.netlify.app/
 
